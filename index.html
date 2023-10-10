@@ -37,6 +37,11 @@
             height: auto; /* Maintain the aspect ratio */
         }
 
+        .accreditor {
+            width: 300px; /* Set the desired width */
+            height: auto; /* Maintain the aspect ratio */
+        }
+
         .underline {
         text-decoration: underline;
         }
@@ -45,24 +50,32 @@
         .logo {
             font-size: 50px;
             font-weight: bold;
-            color: #007bff; /* Change the color as needed */
+            color: #0000cc; /* Change the color as needed */
             text-transform: uppercase;
             text-align: center;
             padding: 10px;
             background-color: #f2f2f2; /* Background color of the logo */
-            border: 2px solid #007bff; /* Border color */
+            border: inset #0000cc; /* Border color */
             border-radius: 5px; /* Rounded corners */
+            letter-spacing: 20px;
+            word-spacing: 15px;
+        }
+
+        .column {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 30px;
         }
 
     </style>
 </head>
 <body>
 <div class="logo">
-        Certification Inventory
-    </div>
+    Certification  Inventory
+</div>
 
-<h1 style="font-size:60px; color: #0000cc" class="underline">* * * S P E C I A L * * *</h1>
-
+<h1 style="font-size:50px; color: #0000cc; font-weight: bold; font-family: Times New Roman, Times, serif; letter-spacing: 10px" class="underline">S P E C I A L</h1>
+<div class="column">
 <table id="table1">
     <tr>
         <th>Certification Badge</th>
@@ -71,15 +84,16 @@
         <th>Notes</th>
     </tr>
     <tr>
-        <td><img src="CertiProf _ Life Long Learning.png" alt="CertiProf _ Life Long Learning" class="badge"></td>
-        <td>CertiProf</td>
+        <td><img src="CertiProf _ Life Long Learning.png" alt="CertiProf _ Life Long Learning" class="badge" style="margin-left: 20px; margin-right: 20px"></td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor" style="margin-left: 20px; margin-right: 20px"></td>
         <td>Life Long Learning</td>
-        <td style="font-style:italic;">"Earners with this badge have proven their unwavering commitment to lifelong learning, vitally important in today's ever-changing and expanding digital world. It also identifies the qualities of an open-minded, disciplined, and constantly evolving mind, capable of using and contributing its knowledge to develop a more equal and better world." - www.certiprof.com</td>
+        <td style="font-style:italic; font-weight: bold">"Earners with this badge have proven their unwavering commitment to lifelong learning, vitally important in today's ever-changing and expanding digital world. It also identifies the qualities of an open-minded, disciplined, and constantly evolving mind, capable of using and contributing its knowledge to develop a more equal and better world." - www.certiprof.com</td>
     </tr>
 </table>
+</div>
 
-<h2 style="font-size:60px; color: #339933" class="underline">* * * A C T I V E * * *</h2>
-
+<h2 style="font-size:50px; color: #339933; font-weight: bold; font-family: Times New Roman, Times, serif; letter-spacing: 10px" class="underline">A C T I V E</h2>
+<div class="column">
 <table id="table2">
     <tr>
         <th>Certification Badge</th>
@@ -88,83 +102,94 @@
         <th>Certificate Number</th>
         <th>Effective From</th>
         <th>Expiry Date</th>
+        <th>View Digital Certificate</th>
     </tr>
     <tr>
         <td><img src="CertiProf _ Scrum Foundation.png" alt="CertiProf _ SFPC" class="badge"></td>
-        <td>CertiProf</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
         <td>Scrum Foundation Professional</td>
         <td>47792350</td>
         <td>10/06/2020</td>
         <td>N/A</td>
+        <td><a href="SFPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>
     <tr>
         <td><img src="Axelos _ ITIL4 Foundation.png" alt="Axelos _ ITIL4 Foundation" class="badge"></td>
-        <td>PeopleCert / Axelos</td>
+        <td><img src="People Cert _ Axelos.png" alt="People Cert _ Axelos" class="accreditor"></td>
         <td>ITIL 4 Foundation in IT Service Management</td>
         <td>GR671251644MM</td>
         <td>03/29/2021</td>
         <td>N/A</td>
+        <td><a href="ITIL 4 Foundation Certificate in IT Service Management.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>
     <tr>
-        <td><img src="Pearson _ AWS Certified Cloud Practitioner.png" alt="Pearson _ AWS CCP" class="badge"></td>
-        <td>Pearson VUE</td>
+        <td><img src="Pearson _ AWS Certified Cloud Practitioner.png" alt="Pearson _ AWS CCP" class="badge"</td>
+        <td><img src="Pearson Vue.png" alt="Pearson Vue" class="accreditor"></td>
         <td>AWS Certified Cloud Practitioner</td>
         <td>RR5G4FCDEEBQQPWG</td>
         <td>08/21/2021</td>
         <td>08/21/2024</td>
+        <td><a href="AWS CCP Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>
     <tr>
         <td><img src="Redhat _ Red Hat Certified System Administrator.png" alt="RedHat _ RHCSA" class="badge"></td>
-        <td>Red Hat</td>
-        <td>Red Hat Certified System Administrator/td>
+        <td><img src="Red Hat.png" alt="Red Hat" class="accreditor"></td>
+        <td>Red Hat Certified System Administrator</td>
         <td>230-202-095</td>
         <td>09/25/2023</td>
         <td>09/25/2026</td>
+        <td><a href="RHCSA Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>
     <tr>
         <td><img src="CertiProf _ Lean Six Sigma White Belt.png" alt="CertiProf _ LSSWBPC" class="badge"></td>
-        <td>CertiProf</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
         <td>Lean Six Sigma White Belt Professional</td>
         <td>90394109</td>
         <td>10/04/2023</td>
         <td>10/04/2026</td>
+        <td><a href="LSSWBPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>   
    <tr>
-        <td><img src="CertiProf _ Business Intelligence Foundation.png" alt="CertiProf _ BIFPC" class="badge"></td>
-        <td>CertiProf</td>
+        <td><img src="CertiProf _ Business Intelligence Foundation.png" alt="CertiProf _ BIFPC" class="badge"</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
         <td>Business Intelligence Foundation Professional</td>
         <td>90436951</td>
         <td>10/05/2023</td>
         <td>10/04/2026</td>
+        <td><a href="BIFPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr> 
    <tr>
         <td><img src="CertiProf _ Business Model Canvas Essentials.png" alt="CertiProf _ BMCEPC" class="badge"></td>
-        <td>CertiProf</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
         <td>Business Model Canvas Essentials Professional</td>
         <td>90438609</td>
         <td>10/05/2023</td>
         <td>10/04/2026</td>
+        <td><a href="BMCEPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr> 
    <tr>
         <td><img src="CertiProf _ Digital Marketing.png" alt="CertiProf _ DMPC" class="badge"></td>
-        <td>CertiProf</td>
-        <td>Digital Marketing Professional_</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
+        <td>Digital Marketing Professional</td>
         <td>90444219</td>
         <td>10/05/2023</td>
         <td>10/04/2026</td>
+        <td><a href="DMPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr> 
    <tr>
         <td><img src="CertiProf _ Remote Work.png" alt="CertiProf _ RWPC" class="badge"></td>
-        <td>CertiProf</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
         <td>Remote Work Professional</td>
         <td>90449545</td>
         <td>10/05/2023</td>
         <td>10/04/2026</td>
+        <td><a href="RWPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>  
 </table>
+</div>
 
-<h3 style="font-size:60px; color: #ff0000" class="underline">* * * E X P I R E D * * *</h3>
-
+<h3 style="font-size:50px; color: #ff0000; font-weight: bold; font-family: Times New Roman, Times, serif; letter-spacing: 10px" class="underline">E X P I R E D</h3>
+<div class="column">
 <table id="table3">
     <tr>
         <th>Certification Badge</th>
@@ -173,48 +198,55 @@
         <th>Certificate Number</th>
         <th>Effective From</th>
         <th>Expiry Date</th>
+        <th>View Digital Certificate</th>
     </tr>
    <tr>
         <td><img src="CertiProf _ Cyber Security Foundation.png" alt="CertiProf _ CSFPC" class="badge"></td>
-        <td>CertiProf</td>
-        <td>Remote Work Professional</td>
+        <td><img src="CertiProf Logo.png" alt="CertiProf Logo" class="accreditor"></td>
+        <td>Cyber Security Foundation Professional</td>
         <td>61179739</td>
         <td>04/08/2021</td>
         <td>04/08/2023</td>
+        <td><a href="CSFPC Certificate.pdf" target="_blank">View Digital Certificate</a></td>
     </tr>  
    <tr>
         <td><img src="IECEP.png" alt="IECEP _ ECT" class="badge"></td>
-        <td>Institute of Electronics Engineers of the Philippines, Inc.</td>
-        <td>ECT Associate Member</td>
+        <td><img src="IECEP.png" alt="IECEP _ ECT" class="badge"></td>
+        <td>Electronics & Communications Technician Associate Member</td>
         <td>18-15779</td>
         <td>11/14/2018</td>
         <td>06/08/2021</td>
+        <td>N/A</td>
     </tr>  
     <tr>
         <td><img src="IECEP.png" alt="IECEP _ ECE" class="badge"></td>
-        <td>Institute of Electronics Engineers of the Philippines, Inc.</td>
-        <td>ECE Associate Member</td>
+        <td><img src="IECEP.png" alt="IECEP _ ECT" class="badge"></td>
+        <td>Electronics & Communications Engineer Associate Member</td>
         <td>18-46292</td>
         <td>11/14/2018</td>
         <td>06/08/2021</td>
+        <td>N/A</td>
     </tr>  
     <tr>
         <td><img src="Professional_Regulation_Commission.png" alt="PRC _ ECT" class="badge"></td>
-        <td>Professional Regulation Commission</td>
+        <td><img src="Professional_Regulation_Commission.png" alt="PRC _ ECE" class="badge"></td>
         <td>Electronics Technician</td>
         <td>0018541</td>
         <td>11/14/2018</td>
         <td>06/08/2021</td>
+        <td>N/A</td>
     </tr>  
     <tr>
         <td><img src="Professional_Regulation_Commission.png" alt="PRC _ ECE" class="badge"></td>
-        <td>Professional Regulation Commission</td>
+        <td><img src="Professional_Regulation_Commission.png" alt="PRC _ ECE" class="badge"></td>
         <td>Electronics Engineer</td>
         <td>0071914</td>
         <td>11/14/2018</td>
         <td>06/08/2021</td>
+        <td>N/A</td>
     </tr>  
 </table>
+</div>
 
 </body>
 </html>
